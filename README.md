@@ -1,5 +1,5 @@
 # twitter-bootstrap-ajax-testing
-Toying with responsive design - Twitter Bootstrap, Telerik, and AJAX.  
+Toying with responsive design and AJAX performance - Twitter Bootstrap, Telerik, and AJAX.  
 
 ## Page descriptions
 * The Lists folder is looking at using Repeater, RadList, and RadGrid - testing responsive functionality.

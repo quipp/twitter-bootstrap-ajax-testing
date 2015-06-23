@@ -3,7 +3,7 @@ Toying with responsive design - Twitter Bootstrap, Telerik, and AJAX.
 
 ## Page descriptions
 * The Lists folder is looking at using Repeater, RadList, and RadGrid - testing responsive functionality.
-* The Comparison folder if comparing fake AJAX (RadAjaxManager / RadAjaxPanel) to real AJAX (JavaScript / Page Methods).  Goals was to see how big a difference in data transmission can be achieved.  
+* The Comparison folder is comparing fake AJAX (RadAjaxManager / RadAjaxPanel) to real AJAX (JavaScript / Page Methods).  Goals was to see view differences in data payload.  
 
 ## Requirements
 * Used Visual Studio 2015 Release Candidate (should work with VS 2013 no problem).

@@ -4,12 +4,12 @@ Toying with responsive design - Twitter Bootstrap, Telerik, and AJAX.
 ## Page descriptions
 * The Lists folder is looking at using Repeater, RadList, and RadGrid - testing responsive functionality.
 * The Comparison folder is comparing fake AJAX (RadAjaxManager / RadAjaxPanel) to real AJAX (JavaScript / Page Methods).  Goals was to see view differences in data payload.
-* See ajax-performance-results.xlsx for results from my own testing.
+* See *ajax-performance-results.xlsx* for results from my own testing.
 
 ## Requirements
 * Used Visual Studio 2015 Release Candidate (should work with VS 2013 no problem).
 * .NET 4.5.2
-* **Requires** Telerik AJAX web controls (used 2015 Q1) - Telerik.Web.Design.dll, Telerik.Web.UI.dll, and Telerik.Web.UI.Skins.dll.  Not included in source control because **requires license**.  Should be easy to switch to standard ASP.NET controls.
+* **Requires** Telerik AJAX web controls (used 2015 Q1) - Telerik.Web.Design.dll, Telerik.Web.UI.dll, and Telerik.Web.UI.Skins.dll.  Not included in source control because **requires license**.  If neccisary, should be easy to switch to standard ASP.NET controls.
 
 ## Notes
 * AJAX Manager provided trivial page size reduction compared to wrapping entire page in AJAX Panel (using compression).

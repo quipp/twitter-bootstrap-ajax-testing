@@ -17,3 +17,8 @@ Toying with responsive design and AJAX performance - Twitter Bootstrap, Telerik,
 * To test page size, use Fiddler and check both the upload and download (they both affect network transmission time).  The Size column in Chrome's Dev Tools Network tab actually only shows download size (not upload size).
 * Use Chrome's network throttling feature to see how important upload/download size is for poor network connections.
 
+## Results
+* Telerik controls because they provide tons of functionality.  Faster development over raw HTML of pure Twitter Bootstrap.
+* Use RadPageLayout & Twitter Bootstrap grid system to get responsive design - wide design for desktop then push down for mobile.
+* Careful use of ASP.NET server controls - use page methods + JavaScript when needed to minimize amount of data transfer (increase UI responsiveness, especially for poor mobile phone connections).
+

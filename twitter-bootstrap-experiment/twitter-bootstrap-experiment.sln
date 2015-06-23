@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twitter-bootstrap-experiment", "twitter-bootstrap-experiment\twitter-bootstrap-experiment.csproj", "{92F14A2F-CB30-4722-9845-64FC29C08D9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdPartyLibraries", "ThirdPartyLibraries", "{77076620-DC2D-4FCA-A3DA-1134C85D68DE}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdPartyLibraries\Telerik.Web.Design.dll = ThirdPartyLibraries\Telerik.Web.Design.dll
+		ThirdPartyLibraries\Telerik.Web.UI.dll = ThirdPartyLibraries\Telerik.Web.UI.dll
+		ThirdPartyLibraries\Telerik.Web.UI.Skins.dll = ThirdPartyLibraries\Telerik.Web.UI.Skins.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92F14A2F-CB30-4722-9845-64FC29C08D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F14A2F-CB30-4722-9845-64FC29C08D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F14A2F-CB30-4722-9845-64FC29C08D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F14A2F-CB30-4722-9845-64FC29C08D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

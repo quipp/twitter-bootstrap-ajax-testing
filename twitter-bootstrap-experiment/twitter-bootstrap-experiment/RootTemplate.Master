@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RootTemplate.master.cs" Inherits="twitter_bootstrap_experiment.RootTemplate" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Twitter Bootstrap Experiment</title>
+    <!-- Bootstrap -->
+    <link href="/twitter-bootstrap-experiment/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/twitter-bootstrap-experiment/css/root.css" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="HeadPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <telerik:RadScriptManager ID="TelerikScriptManager" runat="server" EnablePageMethods="true"></telerik:RadScriptManager>
+        <div class="bm-menu">
+            <telerik:RadMenu ID="MainMenu" runat="server" RenderMode="Auto">
+                <Items>
+                    <telerik:RadMenuItem Text="Home" NavigateUrl="~/" />
+                    <telerik:RadMenuItem Text="Grid" NavigateUrl="~/Lists/GridTest.aspx" />
+                    <telerik:RadMenuItem Text="ListView" NavigateUrl="~/Lists/ListViewTest.aspx" />
+                    <telerik:RadMenuItem Text="Repeater" NavigateUrl="~/Lists/RepeaterTest.aspx" />
+                    <telerik:RadMenuItem Text="Real AJAX" NavigateUrl="~/Comparison/RealAjax.aspx" />
+                    <telerik:RadMenuItem Text="AJAX Panel" NavigateUrl="~/Comparison/Regular.aspx" />
+                </Items>
+            </telerik:RadMenu>
+        </div>
+        <div class="mainContent">
+            <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/twitter-bootstrap-experiment/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script src="/twitter-bootstrap-experiment/scripts/scripts.js"></script>
+</body>
+</html>
